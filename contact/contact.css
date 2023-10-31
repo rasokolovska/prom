@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.header-mobile{
+  display: none;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  border-radius: 4px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-logo {
+  width: 40px;
+  height: 40px;
+}
+
+header a:hover {
+  background-color: #FFA8F15E;
+  color: #212121;
+  border-radius: 20px;
+  box-shadow:#FFA8F15E;
+}
+
+header a.active {
+  background-color:#FFA8F15E;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  padding: 30px;
+
+}
+.image-contact{
+  margin: 0
+  auto;
+}
+.info-contact{
+  margin: 0 auto;
+}
+.info-contact h1{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+}
+.info-contact h2{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding: 20px;
+}
+.info-contact p{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+.cart-count {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: #E7426A;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+
+footer{
+  background: #EBEDEE;
+  max-width: 100%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+
+}
+.footer-padding{
+  display: flex;
+  padding: 0;
+}
+.i-img-and-text{
+  padding:50px 0px  0px 0px  ;
+}
+.p-text{
+  text-align: center;
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width: 140px;
+}
+.image-blue img{
+  display: block;
+  margin: auto ;
+  padding: 0px 0px 10px 0px;
+}
+.for-info-h3{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 56px 0px 0px 0px;
+  text-align: center;
+}
+.for-info-p {
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.information-list{
+  list-style: none;
+  text-decoration: none;
+}
+.information-list a{
+  text-decoration: none; 
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  
+}
+.information-list li{
+  padding: 5px 0px ;
+  text-align: center;
+}
+
+.grey-info-p p{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+
+}
+.icon-img-footer{
+  width: 40px;
+  height: 40px;
+}
+.grey-info-footer{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.icon-info-somedia{
+  display: flex;
+}
+.icon-info-somedia a{
+  padding: 20px;
+}
+.cart-count {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: #E7426A;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+.d-block{
+  display: flex;
+}
+.container{
+  display: none;
+}
+.scrollToTopButton {
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 10px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 50px;
+  height: 45px;
+  background-color: #f3e4dc;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+.scrollToTopButton img{
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 5px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 60px;
+  height: 45px;
+}

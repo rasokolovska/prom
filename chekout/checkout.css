@@ -1,0 +1,76 @@
+ body{
+ background: url(Group\ 326.svg) no-repeat;
+ background-size: cover;
+ }
+ .top-form{
+  padding-top: 50px;
+  padding-bottom: 200px;
+ }
+.order-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.order-form h2 {
+  color: #292929;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.order-form form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color:  #292929;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #e7426b67;
+}
+
+button {
+  background-color: #E7426A;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  margin: auto;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button a{
+  color: #fff;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #E7426A;
+}

@@ -1,0 +1,513 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+}
+.decorate-description{
+  display: flex;
+  flex-direction: column;
+}
+  .price-and-by-pop-set-1{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+  }
+  .border-to-card{
+    border: #ffc2cc6a 1px solid;
+    border-radius: 30px;
+    display: flex;
+
+  }
+header a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  border-radius: 4px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-logo {
+  width: 60px;
+  height: 60px;
+}
+
+header a:hover {
+  background-color: #FFA8F15E;
+  color: #212121;
+  border-radius: 20px;
+  box-shadow:#FFA8F15E;
+}
+
+header a.active {
+  background-color:#FFA8F15E;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+.header-mobile{
+  display: none;
+}
+
+
+.section-1{
+  background: url(./img/bg1.png) center;
+  max-width: 1440px;
+  max-width: 100%;
+  height: 600px;
+  background-size:cover;
+  margin: 0 auto;
+}
+
+.head-description{
+  width: 500px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  float: right;
+  margin-top: 130px;
+  margin-right: 280px;
+  line-height: 40px;
+  
+
+}
+.macaron-img h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #292929;
+  font-size: 25px;
+}
+
+.line-since{
+  margin-bottom: 5px;
+}
+
+.true-love{
+  font-family: 'Montserrat', sans-serif;
+  color: #292929;
+}
+.true-love h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.true-love p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.macaron-img{
+  text-align: center;
+  text-transform: uppercase ;
+}
+
+.list-of-sets{
+  display: flex;
+  flex-wrap: wrap; 
+  row-gap: 50px;
+  justify-content: space-evenly;
+  
+}
+
+
+.ready-sets{
+  background: linear-gradient(to bottom right, #ffdbc385 50%, #FFDBC3 50%);
+}
+.ready-sets-widht{
+  flex: 0 1 500px;
+  border-radius: 30px;
+}
+
+.img-icon-ready-sets{
+  width: 100px;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto ;
+}
+
+.look-further{
+  text-decoration: none;
+  color: #292929;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.description-of-the-card p{
+  color: #292929;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 30px 50px;
+
+}
+
+.collect-your-set{
+  background: linear-gradient(to bottom left, 
+  #ffc2cc8f 50%, #FFC2CC 50%);
+
+}
+
+.set-with-individual-seal{
+  background: linear-gradient(to top right, 
+  #b4eab398 50%, 
+  #B4EAB3 50%);
+
+}
+
+.wedding-proposals{
+  background: linear-gradient(to top left, 
+  #fdd5cdad  50%, 
+  #FDD5CD 50%);
+
+}
+
+
+.corporate-gifts{
+  background: linear-gradient(to top left, 
+  #A8DCDF 50%, 
+  #a8dcdf91 50%);
+}
+
+
+.wholesale-deliveries{
+  background: linear-gradient(to top right, 
+  #C4C6EC 50%, 
+  #c4c6ec89 50%);
+}
+
+
+.for-stock{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0px;
+}
+/*   background: url(./img/promo-1.png) no-repeat left top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; додати до всіх елементів промовшин */
+.promotion{
+  display: flex;
+  justify-content: space-around; 
+}
+.promotion-1{
+  width: 270px;
+  border-radius: 30px;
+  background: url(./img/promo-1.png) no-repeat left top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.promotion-image img{
+  border-radius: 30px 30px 0px 0px;
+}
+
+.gradient-for-p{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 0 0 20px 0;
+  
+}
+
+
+.promotion-2{
+  width: 270px;
+  border-radius: 30px;
+  background: url(./img/promo-2.png) no-repeat left top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.gradient-for-h3{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 330px 0 10px 0;
+
+  
+}
+
+
+.promotion-3{
+  width: 270px;
+  border-radius: 30px;
+  background: url(./img/promo-3.png) no-repeat left top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.promotion-4{
+  width: 270px;
+  border-radius: 30px;
+  background: url(./img/promo-4.png) no-repeat left top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+
+
+.pop-set-h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 40px 0px;
+}
+.decorate-description{
+  max-width: 370px;
+  background-size: contain;
+}
+.popular-sets{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  row-gap: 70px;
+  border-radius: 30px;
+}
+.title-pop-set-1{
+  color:  #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding: 10px;
+}
+.p-pop-set-1{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding:0px 10px ;
+}
+.strong-price{
+  color: #E7426A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  width: 100px;
+  padding: 10px 10px 0px 10px; 
+}
+.add-to-cart-by{
+  color: rgba(0, 0, 0, 0.88);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  background: #FFF;
+  border:none;
+  cursor: pointer;
+}
+.price-and-by-pop-set-1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 0px  0px 10px 0px ;
+}
+.border-to-card{
+  border: #ffc2cc6a 1px solid;
+  overflow: hidden;
+  border-radius: 30px;
+
+}
+.image-new-1{
+  display: flex;
+}
+
+.image-new-1 img{
+  border-radius: 50%;
+  margin: auto;
+}
+.width-new{
+  width: calc(25% - 50px) ;
+}
+.width-new img{
+  max-width: 100%;
+}
+.h4-title-new{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+
+}
+.p-title-new{
+  color: #292929;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+footer{
+  background: #EBEDEE;
+  max-width: 100%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+
+}
+.footer-padding{
+  display: flex;
+  padding: 0;
+}
+.i-img-and-text{
+  padding:50px 0px  50px 20px  ;
+}
+.p-text{
+  text-align: center;
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width: 140px;
+}
+.image-blue img{
+  display: block;
+  margin: auto ;
+  padding: 0px 0px 10px 0px;
+}
+.for-info-h3{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 56px 0px 0px 0px;
+  text-align: center;
+}
+.for-info-p {
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.information-list{
+  list-style: none;
+  text-decoration: none;
+}
+.information-list a{
+  text-decoration: none; 
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  
+}
+.information-list li{
+  padding: 5px 0px ;
+  text-align: center;
+}
+.button-look-all-set-1 a{
+  text-decoration: none;
+}
+.button-look-all-set{
+  width: 293px;
+  max-width: 100%;
+  height: 52px;
+  border-radius: 30px;
+  border: 1px solid  #4E9DD3;
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 40px;
+}
+
+.news-macaron{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 40px 0;
+}
+
+.grey-info-p p{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+
+}
+.icon-img-footer{
+  width: 40px;
+  height: 40px;
+}
+.grey-info-footer{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.icon-info-somedia{
+  display: flex;
+}
+.icon-info-somedia a{
+  padding: 20px;
+}
+.cart-count {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: #E7426A;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+.d-block{
+  display: flex;
+}
+.container{
+  display: none;
+}
+.scrollToTopButton {
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 10px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 50px;
+  height: 45px;
+  background-color: #f3e4dc;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+.scrollToTopButton img{
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 5px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 60px;
+  height: 45px;
+}

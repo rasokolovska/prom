@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./checkout.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="../img/dessert.png">
+  <title>Macaronshop</title>
+</head>
+<body>
+  <div class="top-form">
+  <div class="order-form">
+    <h2>Placing an order</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"  placeholder="your.email@email.com" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"  placeholder="+ 38 (098) 22 - 222 -22" required>
+
+        <label for="address">Delivery address:</label>
+        <input type="text"  id="address" name="address" required>
+        
+        <label for="comments">Comment:</label>
+        <textarea id="comments" name="comments" class="comments" rows="4" cols="58"></textarea>
+
+        <label class="payment-method-label">Payment method:</label>
+        <select name="payment_method" id="payment_method" required>
+            <option value="credit_card">Credit card &#128179;</option>
+            <option value="paypal">PayPal</option>
+            <option value="bank_transfer">Bank Transfer &#128184;</option>
+            <option value="cash">Сash &#128181;</option>
+        </select>
+
+        <button  id="order-button">Order</button>
+    </form>
+</div>
+</div>
+<script src="./order-button.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../ready.set/ready.css">
+  <link rel="stylesheet" href="./media//madia-for-set.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="../img/dessert.png">
+  <title>Macaronshop</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-mobile">
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../ready.set/ready.html">Gift Baskets</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../delivery/delivery.html">delivery and payment</a></li>
+          </ul>
+        </nav> 
+      </div>
+      
+      <div class="menu-bg" id="menu-bg"></div>
+      <div class="wrap-logo-mobile">
+        <img src="../img/svg-mob-logo.svg" alt="logo">
+      </div>
+      <div class="cart-wrap">
+        <a href="../shopping-card/shop.html">
+          <img src="../img/shop-card-mob.svg" alt="">
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+    
+    <nav>
+      <a href="../index.html">Main</a>
+      <a href="./ready.html" class="active">Gift Baskets</a>
+      <a href="../contact/contact.html">Contacts</a>
+      <div class="wrap-logo">
+        <a href="#logo" class="logo"><img class="img-logo" src="../img/logo.png" alt="logo"></a>
+      </div>
+      <a href="../delivery/delivery.html" >delivery and payment</a>
+      <a href="../shopping-card/shop.html" id="shopping-cart-link">
+        shopping cart
+        <span class="cart-count">0</span>
+      </a>
+    </nav>
+  </header>
+  
+  <section class="section-4">
+    <h2 class="pop-set-h2">popular sets</h2>
+      <div class="popular-sets">  
+        <div class="pop-set-1 border-to-card">
+          <div class="decorate-description">
+            <div class="image-pop-set-1">
+              <img src="../img/popset1.png" alt="pop-set-1">
+            </div>
+            <div class="title-pop-set-1">
+              <h3 >Heart</h3>
+            </div>
+            <div class="p-pop-set-1 card">
+              <p>24 pieces in a heart-shaped box.
+                Assorted 6 flavors</p>
+            </div>
+            <div class="price-and-by-pop-set-1">
+              <div class="price-pop-set-1">
+                <strong class="strong-price">1230 UAH</strong>
+              </div>
+              <div class="button-by-pop-set-1">
+                <button class="add-to-cart-by" data-title="Heart" data-price="1230 UAH"> <img src="../img/add-to-card.png" alt=""> Add to cart</button>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="pop-set-2 border-to-card card">
+          <div class="decorate-description">
+            <div class="image-pop-set-1">
+              <img src="../img/popset2.png" alt="pop-set-1">
+            </div>
+            <div class="title-pop-set-1">
+              <h3>Beauty will save the world</h3>
+            </div>
+            <div class="p-pop-set-1">
+              <p>Set 16 pcs. Flavors: Strawberry - Basil, Coconut, Blue Cheese, Parmesan</p>
+            </div>
+            <div class="price-and-by-pop-set-1">
+              <div class="price-pop-set-1">
+                <strong class="strong-price">1980 UAH</strong>
+              </div>
+              <div class="button-by-pop-set-1">
+                <button class="add-to-cart-by"data-title="Beauty will save the world" data-price="1980 UAH"> <img src="../img/add-to-card.png" alt=""> Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="pop-set-3 border-to-card card">
+          <div class="decorate-description">
+            <div class="image-pop-set-1">
+              <img src="../img/popset3.png" alt="pop-set-1">
+            </div>
+            <div class="title-pop-set-1">
+              <h3>Round set</h3>
+            </div>
+            <div class="p-pop-set-1">
+              <p>40 macaroons in a round box with a personal inscription</p>
+            </div>
+            <div class="price-and-by-pop-set-1">
+              <div class="price-pop-set-1">
+                <strong class="strong-price">700 UAH</strong>
+              </div>
+              <div class="button-by-pop-set-1">
+                <button class="add-to-cart-by" data-title="Beauty will save the world" data-price="700 UAH"> <img src="../img/add-to-card.png" alt=""> Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pop-set-4 border-to-card card">
+          <div class="decorate-description">
+            <div class="image-pop-set-1">
+              <img src="../img/popset4.png" alt="pop-set-1">
+            </div>
+            <div class="title-pop-set-1">
+              <h3>Set for 9</h3>
+            </div>
+            <div class="p-pop-set-1">
+              <p>Set of 9 pieces in a square box. Flavors: chocolate, pistachio, cherry</p>
+            </div>
+            <div class="price-and-by-pop-set-1">
+              <div class="price-pop-set-1">
+                <strong class="strong-price">950 UAH</strong>
+              </div>
+              <div class="button-by-pop-set-1">
+                <button class="add-to-cart-by" data-title="Set for 9" data-price="950 UAH"> <img src="../img/add-to-card.png" alt=""> Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+
+        <div class="pop-set-5 border-to-card card">
+          <div class="decorate-description">
+            <div class="image-pop-set-1">
+              <img src="../img/popset5.png" alt="pop-set-1">
+            </div>
+            <div class="title-pop-set-1">
+              <h3>Set for 16</h3>
+            </div>
+            <div class="p-pop-set-1">
+              <p> Set 16 pcs. Flavors: salted caramel, blue cheese, parmesan, chocolate</p>
+            </div>
+            <div class="price-and-by-pop-set-1">
+              <div class="price-pop-set-1">
+                <strong class="strong-price">1890 UAH</strong>
+              </div>
+              <div class="button-by-pop-set-1">
+                <button class="add-to-cart-by" data-title="Set for 16" data-price="1890 UAH"> <img src="../img/add-to-card.png" alt=""> Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pop-set-6 border-to-card card">
+          <div class="decorate-description">
+            <div class="image-pop-set-1">
+              <img src="../img/mac1.jpeg" alt="pop-set-1">
+            </div>
+            <div class="title-pop-set-1">
+              <h3>Raspberry macaron</h3>
+            </div>
+            <div class="p-pop-set-1">
+              <p>delicate macaron with raspberry cream</p>
+            </div>
+            <div class="price-and-by-pop-set-1">
+              <div class="price-pop-set-1">
+                <strong class="strong-price">70 UAH</strong>
+              </div>
+              <div class="button-by-pop-set-1">
+                <button class="add-to-cart-by"  data-title="Raspberry macaron" data-price="70 UAH"> <img src="../img/add-to-card.png" alt=""> Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="button-look-all-set-1">
+        <button  id="button-look-all-set-2">All holiday sets</button>
+      </div>
+  </section>
+
+
+  <footer>
+    <div class="footer">
+      <div class="footer-padding">
+        <div class="i-img-and-text">
+          <div class="image-blue">
+            <img src="../img/footer1.png" alt="">
+          </div>
+          <div class="p-text">
+            <p>Cooking by hand and with love</p>
+          </div>
+        </div>
+
+    <div class="i-img-and-text">
+      <div class="image-blue">
+        <img src="../img/footer2.png" alt="">
+      </div>
+      <div class="p-text">
+        <p>We will deliver on the day of order</p>
+      </div>
+    </div>
+
+    <div class="i-img-and-text">
+      <div class="image-blue">
+        <img src="../img/footer3.png" alt="">
+      </div>
+      <div class="p-text">
+        <p>100% almond flour and natural ingredients</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="information">
+      <h3 class="for-info-h3">Information</h3>
+        <ul class="information-list">
+          <li>
+            <a href="">About company</a>
+          </li>
+          <li>
+            <a href="">Shipping and payment</a>
+          </li>
+          <li>
+            <a href="">Guarantees </a>
+          </li>
+        </ul>
+    </div>
+
+    <div class="catalog">
+      <h3 class="for-info-h3">Catalog</h3>
+      <ul class="information-list">
+        <li>
+          <a href="">Dessert catalog</a>
+        </li>
+        <li>
+          <a href="">Ready-made sets</a>
+        </li>
+        <li>
+          <a href="">Stock</a>
+        </li>
+      </ul>
+    </div>
+    <div class="for-bussiness">
+      <h3 class="for-info-h3">FOR BUSINESS</h3>
+      <ul class="information-list">
+        <li>
+          <a href="">Corporate gifts</a>
+        </li>
+        <li>
+          <a href="">For legal entities</a>
+        </li>
+        <li>
+          <a href="">Wholesalers</a>
+        </li>
+      </ul>
+    </div>
+    <div class="phone">
+      <h3 class="for-info-h3">+38923484325</h3>
+      <p class="for-info-p">from 9:00 to 21:00</p>
+      <div class="grey-info-footer">
+        <div class="icon-info-somedia">
+          <div class="insta-footer">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="icon-img-footer" src="../img/icons8-instagram-50.png" alt="instagram">
+            </a>
+          </div>
+          <div class="pint-footer">
+            <a href="https://www.x.com/" target="_blank">
+              <img class="icon-img-footer" src="../img/icons8-twitter-circled-50.png" alt="pinterest">
+            </a>
+          </div>
+          <div class="facebook-footer">
+            <a href="https://uk-ua.facebook.com/" target="_blank">
+              <img class="icon-img-footer" src="../img/icons8-facebook-50.png" alt="facebook">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="">
+  <button class="scrollToTopButton"><img class="scroll-img-up" src="../img/icons8-up-67.png" alt=""></button>
+</div>
+
+  <script src="./button.js"></script>
+  <script src="./button2.js"></script>
+  <script src="../js/nav-mob.js"></script>
+  <script  src="./add.js"></script>
+  <script src="../js/add-to-cardshop.js"></script>
+
+</body>
+</html>

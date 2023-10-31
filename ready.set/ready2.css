@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+}
+.header-mobile{
+  display: none;
+}
+
+header a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px; 
+  border-radius: 4px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-logo {
+  width: 60px;
+  height: 60px;
+}
+
+header a:hover {
+  background-color: #FFA8F15E;
+  color: #212121;
+  border-radius: 20px;
+  box-shadow:#FFA8F15E;
+}
+
+header a.active {
+  background-color:#FFA8F15E;
+  border-radius: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+
+.pop-set-h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 40px 0px;
+}
+
+.popular-sets{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  row-gap: 70px;
+  border-radius: 30px;
+}
+.title-pop-set-1{
+  color:  #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.p-pop-set-1{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding:0px 10px ;
+}
+.strong-price{
+  color: #E7426A;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  width: 100px;
+  padding: 10px 10px 0px 10px; 
+}
+.add-to-cart-by{
+  color: rgba(0, 0, 0, 0.88);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  background: #FFF;
+  border:none;
+  cursor: pointer;
+}
+.price-and-by-pop-set-1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 0px  0px 10px 0px ;
+}
+.border-to-card{
+  border: #ffc2cc6a 1px solid;
+  border-radius: 30px;
+  flex: 0 1 370px;
+  overflow: hidden;
+}
+
+.image-pop-set-1 img{
+  border-radius: 30px 30px 0px 0px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.button-look-all-set{
+  width: 293px;
+  height: 52px;
+  border-radius: 30px;
+  border: 1px solid  #4E9DD3;
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.scrollToTopButton {
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 10px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 50px;
+  height: 45px;
+  background-color:  #f3e4dc;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+.scrollToTopButton img{
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 5px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 60px;
+  height: 45px;
+}
+
+.cart-count {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: #E7426A;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+
+
+footer{
+  background: #EBEDEE;
+  max-width: 100%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+
+}
+.footer-padding{
+  display: flex;
+  padding: 0;
+}
+.i-img-and-text{
+  padding:50px 0px  50px 20px  ;
+}
+.p-text{
+  text-align: center;
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width: 140px;
+}
+.image-blue img{
+  display: block;
+  margin: auto ;
+  padding: 0px 0px 10px 0px;
+}
+.for-info-h3{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 56px 0px 0px 0px;
+  text-align: center;
+}
+.for-info-p {
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.information-list{
+  list-style: none;
+  text-decoration: none;
+}
+.information-list a{
+  text-decoration: none; 
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  
+}
+.information-list li{
+  padding: 5px 0px ;
+  text-align: center;
+}
+.button-look-all-set{
+  width: 293px;
+  max-width: 100%;
+  height: 52px;
+  border-radius: 30px;
+  border: 1px solid  #4E9DD3;
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 40px;
+}
+
+.news-macaron{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 40px 0;
+}
+
+.grey-info-p p{
+  color: #292929;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+
+}
+.icon-img-footer{
+  width: 40px;
+  height: 40px;
+}
+.grey-info-footer{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.icon-info-somedia{
+  display: flex;
+}
+.icon-info-somedia a{
+  padding: 20px;
+}
+.scrollToTopButton {
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 10px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 50px;
+  height: 45px;
+  background-color:  #f3e4dc;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+.scrollToTopButton img{
+  position: fixed; /* Зафіксована позиція на екрані */
+  bottom: 100px; /* Відстань від нижнього краю вікна браузера */
+  right: 5px; /* Відстань від правого краю вікна браузера */
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  border: none; /* Видаляємо рамку навколо кнопки */
+  cursor: pointer; /* Курсор руки при наведенні на кнопку */
+  width: 60px;
+  height: 45px;
+}
